@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API_URL = "http://api.weatherapi.com/v1/forecast.json?";
+const API_URL = "https://api.weatherapi.com/v1/forecast.json?";
 const API_KEY = "09303b02e0494feb982123006242307";
 
 function Card({ latitude, longitude, wcity }) {
